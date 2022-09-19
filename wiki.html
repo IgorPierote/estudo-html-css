@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header> <!-- Cabeçalho = introduz algo-->
+        <h1>Estudo do HTML</h1>
+        <h3>Conceitos introdutórios da linguagem</h3>
+        <nav> <!-- Agrupa links de navegação-->
+            <ol> <!-- Lista ordenada -->
+                <li><a href="#intro">Introdução</a></li>
+            </ol>
+        </nav>
+    </header>
+    <main> <!-- Conteúdo principal da pagina-->
+        <div>
+            <section> <!-- Separa tópicos/ conteudos-->
+                <h3>Uso de tags</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus, nisi pariatur quas architecto facere error iusto quam libero ex vel! Unde totam animi nisi, culpa itaque ducimus maxime ex.
+                    </p>
+            </section>
+              <section>
+                <h3>Uso de tabelas</h3>
+                    <table border="1" cellpadding="3" style="border-collapse: collapse;">
+                        <thead> <!--Cabeçalho da tabela-->
+                            <tr>
+                                <th colspan="4">Usuários</th> <!-- colspan = Duração da coluna -->
+                            </tr>
+                            <tr> <!--Tabela Row-->
+                                <th>Cargo</th>
+                                <th>Nome</th> <!-- Table Header-->
+                                <th>CPF</th>
+                                <th>Data Nasc.</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr> <!-- rowspan =  por quantas linhas aquela informação irá se expandir-->
+                                <td rowspan="2">Funcionário</td>
+                                <td>Igor Albuquerque Pierote</td><!-- Table Data-->
+                                <td>000.000.000-00</td>
+                                <td>07/01/2002</td>
+                            </tr>
+                            <tr>
+                                <td>Carinha Que Mora logo ali</td><!-- Table Data-->
+                                <td>000.000.000-00</td>
+                                <td>13/10/1976</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">Chefe</td>
+                                <td>Miryãnn Fernandes</td><!-- Table Data-->
+                                <td>000.000.000-00</td>
+                                <td>12/09/2002</td>
+                            </tr>
+                            <tr>
+                                <td>Zelda</td><!-- Table Data-->
+                                <td>000.000.000-00</td>
+                                <td>12/09/1988</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <hr />
+                    <table border="1" cellpadding="3" style="border-collapse: collapse">
+                        <tr>
+                            <td colspan="2">Celular 1-1</td>
+                            <td>Celula 1-3</td>
+                        </tr>
+                        <tr>
+                            <td>Celular 2-1</td>
+                            <td>Celular 2-2</td>
+                            <td>Celular 2-3</td>
+                        </tr>       
+                    </table>
+            </section>
+        </div>
+    </main>
+    <hr /> <!-- Horizontal rule-->
+    <footer> <!-- Dá informações sobre autria/encerra o conteúdo-->
+        ©
+        <script>
+            document.write(new Date().getFullYear())
+        </script>
+        SoulCode Academy
+    </footer>
+</body>
+</html>
