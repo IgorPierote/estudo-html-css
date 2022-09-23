@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    /*Dentro do style é apenas aceito código de CSS*/ 
+    /*
+        <selector> {
+            propriedade: valor;
+            propriedade: valor;
+        }
+
+        Formas de uso:
+        1) Inline = vai direto no elemento
+        2) tag <style> vai direto no html
+        3) Dentro de arquivo separado
+    */
+
+    P {
+
+        color: blue;
+        font-size: 24px;
+        font-style: italic;
+    }
+    </style>
+    <!-- Stylesheet = folha de estilos-->
+    <link rel="stylesheet" href="css/style.css"/>
+    <!-- Criar icone para pagina-->
+    <link rel=icon href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/322/jack-o-lantern_1f383.png">
+
+    <!-- Link do googel fontes para adicionar fontes personalizadas para o nosso t-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    
+
+</head>
+<body>  
+    <!-- Inline = atributo style-->
+    <!-- O style inline tem prevalencia sobre o style criado no head-->
+    <p style="color: red; font-size: 32px;">Olá, tudo bem! </p>
+    <P style="color: rgb(45, 146, 124); font-weight: bold;">Oi tudo normal.</P>
+    <p style="color: orange">To com sono</p>
+    <h1 id="meu-h1">Aprendeno CSS</h1>
+    <h1 class="cabecalho">Show de bola</h1>
+    <h2 class="cabecalho">CSS é muito top</h2>
+    <h3 class="cabecalho">Curti d--</h3>
+    <div class="quadrado">Hello</div>
+    <img class="banner" src="img/stars-g3c4952a99_1920.jpg"/>
+</body>
+</html>

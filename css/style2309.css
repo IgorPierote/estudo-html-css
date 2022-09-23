@@ -1,0 +1,100 @@
+* {
+    /*Garante que os elementos respeitem    
+    as dimensões quando pussem padding e bottom
+    */
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+
+}
+
+.my-button {
+    background-color: rgb(235, 158, 169);
+    border: none;
+    color:antiquewhite;
+    padding: 16px 32px; /* Vertical Horizontal*/
+    font-size: 16px;
+    margin: 6px 4px;
+    cursor: pointer;  /*Icone de clique*/
+    border-radius: 6px;
+}
+
+.my-button:hover {
+    background-color: hotpink;
+}
+/* Prevalencia é de quem vem por cima do código*/
+
+.my-button-azul {
+    background-color: rgb(161, 216, 235);
+}
+
+.titulo{
+    width: 600px;
+    margin-left: 600px;
+}
+.my-table{
+    width: 400px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+/*estiliza o td/th dentro do my-table*/
+.my-table td, th {
+    border: 1px solid rgb(209, 209, 209);
+    padding: 8px;
+}
+
+.my-table th{
+    background-color:rgb(157, 211, 230);
+    padding: 12px 0;
+    color: rgb(46, 46, 46)
+}
+
+.my-table tr:hover {
+    background-color: lightgoldenrodyellow;
+
+}
+
+/*even = par (aplica o estilo aos tr(par)*/
+.my-table tr:nth-child(even) {
+    background-color: rgb(209, 209, 209);
+}
+
+.my-table td {
+    text-align: center;
+    height: 50px;
+}
+
+/* Custom Form*/
+
+.my-form {
+    border-radius: 6px;
+    background-color: #f2f2f2;
+    padding: 20px 16px;
+    width: 300px;
+    margin:auto
+}
+
+::placeholder{
+    color: lightpink;
+}
+
+.my-form input{
+    width: 100%;
+    padding: 12px 8px;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 6px;
+}
+
+.toda-largura {
+    width: 100%;
+    margin: 6px 0;
+}
+
+.my-form-group{
+    margin-bottom: 10px;
+    background-color: rgb(156, 248, 239);
+}
